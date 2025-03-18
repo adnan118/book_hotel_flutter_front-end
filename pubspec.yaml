@@ -1,0 +1,94 @@
+name: book_hotel
+description: A new Flutter project. Book Hotel
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.0-146.2.beta <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+  firebase_core:
+  firebase_auth:
+  firebase_messaging:
+  get: ^4.0.0
+  bottom_bar:
+  fan_carousel_image_slider:
+  google_maps_flutter:
+  flutter_polyline_points:
+  awesome_dialog:
+  geolocator:
+  geocoding:
+
+  http:
+  shared_preferences:
+  anim_search_bar:
+  avatar_glow:
+  flutter_sticky_widgets:
+  image_card: ^0.0.4
+  url_launcher:
+  stacked_notification_cards:
+  user_profile_avatar: ^0.1.2
+  flutter_popup_menu_button: ^0.0.1+5
+  syncfusion_flutter_barcodes:
+  flutter_barcode_scanner: ^2.0.0
+  image_picker:
+  infinite_scroll: ^1.1.1
+  calendar_date_picker2: ^0.5.3
+  intl:
+  dartz: ^0.10.1
+  flutter_otp_text_field:
+  cached_network_image:
+  rating_dialog: ^2.0.4
+  flutter_credit_card:
+  qr_code_dart_scan:
+  flutter_paypal_checkout: ^1.0.1
+  mailer:
+ 
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.0
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/MyLogo.jpg"
+
+
+flutter:
+
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+    - assets/voice/
+    - assets/
+
+
+
+
+  # fonts:
+  fonts:
+    - family: Genos
+      fonts:
+        - asset: assets/font/Fonten/Genos-Regular.ttf
+        - asset: assets/font/Fonten/Genos-ThinItalic.ttf
+
+    - family: NotoKufiArabic
+      fonts:
+        - asset: assets/font/Fontar/NotoKufiArabic-Regular.ttf
+
